@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --white: #FFF;
+
+    --gray-600: #0C0C0D;
+    --gray-200: #AFABB6;
+}
+
+body {
+    background: var(--gray-600);
+}
+
+header {
+    background: url(../imagens/bg-header-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 11.375rem;
+    padding-top: 5.5rem;
+    padding-inline: 1.5rem;
+}
+
+header h1 {
+    color: var(--white);
+    font-size: 1.5rem;
+}
+
+main {
+    padding-inline: 1.5rem;
+}
+
+.adicionar form {
+    margin-top: -2.875rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.adicionar .input-box {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.adicionar label {
+    color: var(--gray-200);
+    font-size: 0.75rem;
+    letter-spacing: 0.0225rem;
+}
+
+.adicionar form div:nth-of-type(2) {
+    display: flex;
+}
